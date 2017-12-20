@@ -1,0 +1,38 @@
+.submit {
+  border-radius: 0px;
+  width: 100px;
+  height: 30px;
+}
+
+ .left {
+  margin-left: 5%;
+}
+
+.column1, .column2 {
+  float: left;
+  padding: 10px;
+}
+
+.column1 {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.column2 {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  .column1, .column2 {
+     width: 100%;
+  }
+}
